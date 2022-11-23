@@ -1,0 +1,53 @@
+body {
+  font-family: "Patrick Hand", cursive;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  background-image: url("./raspopova-marina-Kd6uDjOVwDE-unsplash_resized_compressed.jpg");
+  background-size: cover;
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 8vw;
+  /* font-size: clamp(110%, 8vh, 60%); */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 8vw;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 4vw;
+}
+
+button {
+  border: none;
+  padding-top: 0.63em;
+  padding-bottom: 0.63em;
+  color: white;
+  font-weight: bold;
+  width: 8em;
+  margin-bottom: 0.31em;
+  border-radius: 0.31em;
+  font-size: 2.25rem;
+}
+
+#increment-btn {
+  background: #cb8e4f;
+}
+
+#save-btn {
+  background: #4fcb8e;
+}
